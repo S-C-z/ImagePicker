@@ -171,7 +171,7 @@ public class ImagePicker {
     Intent chooserIntent = Intent.createChooser(target, getTitle(context));
 
     // Add all other intents
-    chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, galleryIntents.toArray(new Parcelable[galleryIntents.size()]));
+ //   chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, galleryIntents.toArray(new Parcelable[galleryIntents.size()]));
 
     return chooserIntent;
   }
